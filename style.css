@@ -48,9 +48,46 @@ footer {
 footer .col-footer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
+
+/* prima colonna  */
+
+.img-sinister {
+  width: 40px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.col-footer-gap {
+  gap: 0 10px;
+}
+
+.info-song > h4 {
+  font-size: 12px;
+}
+
+.title-song {
+  font-size: 12px;
+}
+.icon-heart-folder {
+  padding: 0 10px;
+}
+.icon-heart-folder i {
+  padding: 0 5px;
+}
+
+/* colonna centrale  */
+
 .play-song .point-song {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 0 22px;
+}
+
+.bar-song {
+  height: 6px;
+  width: 20vh;
+  background-color: red;
 }
