@@ -1,1 +1,41 @@
+/* generals  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header  */
+
+/* main  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  max-width: 100%;
+}
+
+.content {
+  height: calc(100vh - 80px);
+  display: flex;
+  border: 1px solid green;
+}
+
+.sidebar {
+  border: 1px solid blue;
+  flex-basis: 200px;
+}
+
+/* footer  */
+footer {
+  height: 80px;
+  border: 1px solid royalblue;
+}
