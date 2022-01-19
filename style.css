@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
 }
@@ -18,9 +22,10 @@ img {
 
 .container {
   display: flex;
-  border: 1px solid rgb(200, 227, 26);
   height: calc(100vh - 90px);
 }
+
+/* sidebar  */
 
 .sidebar {
   background-color: black;
@@ -28,10 +33,60 @@ img {
   flex-shrink: 0;
 }
 
+.logo-wrapper {
+  padding: 20px;
+}
+
+.logo-wrapper .wrap-logo {
+  max-width: 133px;
+}
+
+/* inserimento list-menu  */
+
+.main-list-menu {
+  padding-bottom: 5px;
+}
+
+.main-list-menu .menu__list-item {
+  padding: 5px 20px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.main-list-menu .menu__list-item a {
+  display: contents;
+}
+
+.main-list-menu .menu__list-item img {
+  width: 25px;
+  color: white;
+  text-align: center;
+}
+
+.span-name {
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.span-name:hover {
+  color: goldenrod;
+
+  font-size: 15px;
+}
+
+.main-list-menu .name__list-item {
+  color: #747272;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.main-list-menu .name__list-item:hover {
+  color: lawngreen;
+  font-size: 15px;
+}
+
 /* main  */
 
 .header-main {
-  border: 1px solid teal;
   flex-grow: 1;
   background-color: #141922;
   overflow-y: scroll;
@@ -41,11 +96,36 @@ img {
 
 .space__upgrade {
   min-height: 85px;
-  border: 1px solid red;
+  border-bottom: 1px solid red;
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btn-upgrade {
+  padding: 10px 20px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  border-color: whitesmoke;
+  background-color: black;
+  height: 42px;
+  margin-right: 15px;
+}
+.btn-upgrade a {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn-upgrade:hover {
+  border-color: yellowgreen;
+}
+
+.btn-upgrade a:hover {
+  color: yellowgreen;
 }
 
 /* footer  */
@@ -113,7 +193,7 @@ footer .col-footer {
 .bar-song {
   height: 6px;
   width: 20vh;
-  background-color: red;
+  background-color: grey;
   display: inline-block;
   margin-left: -5px;
   border-radius: 5px;
