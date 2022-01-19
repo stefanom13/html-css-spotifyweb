@@ -22,7 +22,7 @@ img {
 
 .container {
   display: flex;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 80px);
 }
 
 /* sidebar  */
@@ -31,6 +31,9 @@ img {
   background-color: black;
   flex-basis: 230px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .logo-wrapper {
@@ -89,38 +92,85 @@ img {
 
 /* inserimento playlist  */
 
-.sect-playlist {
+.name-section {
   padding: 10px 20px;
 }
 
-.sect-playlist .name-section {
-  font-size: 14px;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-
 .sect-playlist .add-new-playlist {
-  padding-bottom: 10px;
-}
-
-.sect-playlist .add-new-playlist .icon {
-  background-color: #747272;
-  width: 40px;
-  height: 40px;
-}
-
-.create_btn {
-  padding-left: 8px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
   color: #747272;
+  gap: 12px;
+  font-size: 16px;
   font-weight: bolder;
+}
+.sect-playlist .add-new-playlist .icon {
+  width: 37px;
+  height: 37px;
+  background-color: #747272;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sect-playlist {
+  flex-grow: 3;
 }
 
 .sect-playlist .title-playlist__list li {
   color: #747272;
   font-size: 14px;
   list-style: none;
-  padding-bottom: 20px;
+  padding: 0 20px;
   font-weight: 700;
+  line-height: 35px;
+}
+
+.title-playlist__list {
+}
+
+/* footer-sidebar  */
+.down-app {
+  padding: 0 20px;
+  width: 100%;
+}
+.down-app::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #747272;
+  margin-top: 13px;
+  width: 100%;
+}
+.down-app a {
+  color: #747272;
+  padding-left: 5px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.profile-img {
+  height: 25px;
+  width: 25px;
+  border-radius: 999px;
+  overflow: hidden;
+  background-color: #747272;
+}
+
+.user {
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /* main  */
@@ -169,8 +219,7 @@ img {
 
 /* footer  */
 footer {
-  height: 90px;
-  border-top: 1px solid black;
+  min-height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
