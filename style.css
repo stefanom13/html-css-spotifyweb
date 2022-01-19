@@ -46,6 +46,9 @@ img {
 .main-list-menu {
   padding-bottom: 5px;
 }
+.active {
+  border-left: 2px solid greenyellow;
+}
 
 .main-list-menu .menu__list-item {
   padding: 5px 20px;
@@ -60,7 +63,7 @@ img {
 .main-list-menu .menu__list-item img {
   width: 25px;
   color: white;
-  text-align: center;
+  opacity: 0.7;
 }
 
 .span-name {
@@ -82,6 +85,42 @@ img {
 .main-list-menu .name__list-item:hover {
   color: lawngreen;
   font-size: 15px;
+}
+
+/* inserimento playlist  */
+
+.sect-playlist {
+  padding: 10px 20px;
+}
+
+.sect-playlist .name-section {
+  font-size: 14px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.sect-playlist .add-new-playlist {
+  padding-bottom: 10px;
+}
+
+.sect-playlist .add-new-playlist .icon {
+  background-color: #747272;
+  width: 40px;
+  height: 40px;
+}
+
+.create_btn {
+  padding-left: 8px;
+  color: #747272;
+  font-weight: bolder;
+}
+
+.sect-playlist .title-playlist__list li {
+  color: #747272;
+  font-size: 14px;
+  list-style: none;
+  padding-bottom: 20px;
+  font-weight: 700;
 }
 
 /* main  */
@@ -131,7 +170,7 @@ img {
 /* footer  */
 footer {
   height: 90px;
-  border: 1px solid royalblue;
+  border-top: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
