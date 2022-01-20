@@ -45,12 +45,17 @@
 @media screen and (max-width: 600px) {
   .sidebar {
     background-color: black;
-    flex-basis: 110px;
+    flex-basis: 100px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     overflow: hidden;
     flex-grow: 1;
+  }
+
+  .wrap-logo {
+    width: 90px;
   }
 
   .sect-playlist {
@@ -61,6 +66,12 @@
     display: none;
   }
   .profile {
+    display: none;
+  }
+  .span-name {
+    display: none;
+  }
+  .name__list-item {
     display: none;
   }
 }
