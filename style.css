@@ -336,6 +336,11 @@ img {
   
 }
 
+.circle img{
+    border-radius: 999px;
+    overflow: hidden;
+}
+
 
 /* footer  */
 #toolsbar {
