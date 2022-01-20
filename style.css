@@ -265,23 +265,49 @@ img {
 
 .sect-card .card{
     display: flex;
-    gap: 15px;
+    gap: 10px;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:nowrap ;
     text-align: center;
-    overflow-x: auto;
+   padding-top: 10px;
     flex-shrink: 0;
       
 
 }
 .sect-card .card .wrap-card {
-    flex-basis: 15%;
+    width: calc(95% / 6);
  
 }
 
 .title-card{
- padding: 25px 1px;
+ padding-bottom: 6px;
 
+}
+
+.comment__title-card{
+  padding: 15px 0;
+}
+.comment__title-card .sugg{
+  color: #747272;
+  font-weight: 700;
+  font-size: 14px;
+
+  
+}
+
+.wrap-title {
+  padding: 10px
+  text-align: center;
+}
+.wrap-title .name-song {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+ .subtitle{
+  font-size: 14px;
+  font-weight: 700;
+  color: #747272;
+  
 }
 
 
