@@ -301,9 +301,9 @@ img {
   color: yellowgreen;
 }
 
-  
+.circle{
 
-
+}
 
 .title-card{
  padding-bottom: 6px;
@@ -400,7 +400,7 @@ img {
 
 .bar-song {
   height: 4px;
-  width: 20vh;
+  width: 50px;
   background-color: grey;
   display: inline-block;
   margin-left: -5px;
@@ -409,7 +409,7 @@ img {
 }
 
 .middle {
-  width: 300px;
+  width:250px;
   
 }
 

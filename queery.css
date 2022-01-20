@@ -41,6 +41,30 @@
     width: calc(94% / 2);
   }
 }
+@media screen and (max-width: 700px) {
+  .play-song .point-song {
+    gap: 0 10px;
+  }
+  .bar-song {
+    height: 4px;
+    width: 40px;
+  }
+
+  .middle {
+    width: 90px;
+  }
+
+  .point-song i {
+    font-size: 15px;
+  }
+  .col-footer i {
+    padding: 0 1px;
+  }
+  .col-footer-right {
+    padding-right: 5px;
+    flex-shrink: 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .sidebar {
