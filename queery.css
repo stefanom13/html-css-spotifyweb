@@ -1,0 +1,75 @@
+@media screen and (max-width: 978px) {
+  .sect-card .card {
+    gap: 2%;
+  }
+  .sect-card .card .wrap-card {
+    width: calc(92% / 5);
+  }
+
+  .wrap-title .name-song {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .sect-card .card {
+    gap: 2%;
+  }
+  .sect-card .card .wrap-card {
+    width: calc(92% / 4);
+  }
+
+  .wrap-title .name-song {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 870px) {
+  .sect-card .card {
+    gap: 3%;
+  }
+  .sect-card .card .wrap-card {
+    width: calc(93% / 3);
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .sect-card .card {
+    gap: 4%;
+  }
+  .sect-card .card .wrap-card {
+    width: calc(94% / 2);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    background-color: black;
+    flex-basis: 110px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-grow: 1;
+  }
+
+  .sect-playlist {
+    display: none;
+  }
+
+  .down-app {
+    display: none;
+  }
+  .profile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .sect-card .card {
+    gap: 4%;
+  }
+  .sect-card .card .wrap-card {
+    width: 94%;
+  }
+}
