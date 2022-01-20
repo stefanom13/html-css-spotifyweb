@@ -137,6 +137,8 @@ img {
   flex-grow: 1;
 }
 
+.circle
+
 /* footer-sidebar  */
 .down-app {
   padding: 0 20px;
@@ -274,6 +276,28 @@ img {
     width: calc(90% / 6);
  
 }
+.wrap-card figure {
+  position: relative;
+ 
+
+}
+.wrap-card i {
+  font-size: 60px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.wrap-card:hover i {
+  display:inline;
+  color: yellowgreen;
+}
+
+  
+
+
 
 .title-card{
  padding-bottom: 6px;
