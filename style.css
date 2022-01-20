@@ -34,6 +34,8 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /* gap: 5px; */
+  padding: 0px 15px;
   /* gap: 5  per distanziare le colonne visto che abbiamo fatto tutto in flex*/
 }
 
@@ -141,8 +143,12 @@ img {
 
 /* footer-sidebar  */
 .down-app {
-  padding: 0 20px;
+  padding: 20px;
   width: 100%;
+}
+.down-app i {
+  padding-left: 20px;
+ 
 }
 .down-app::after {
   content: "";
